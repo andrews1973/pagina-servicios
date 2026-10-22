@@ -26,6 +26,13 @@ a:hover {
     
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+}
+
 h1 {
     font-size: 1.8rem;
     color: rgb(29, 171, 0);
@@ -129,7 +136,12 @@ aside section {
 }
 
 .redes-sociales {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  
+}
+
+.redes-sociales a {
+    margin-right: 0.5rem;
 }
 
 footer {
@@ -172,6 +184,18 @@ footer {
 /* ====768==== */
 
 @media (min-width: 768px) {
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+    font-size: 1.3rem;
+    line-height: 1.3;
+}
     
 }
 
